@@ -1,5 +1,5 @@
 def prime?(num) 
-    if num < 2
+    if num <=
     return true
   end
   while i <= num / 2
