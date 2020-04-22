@@ -1,12 +1,7 @@
 def prime?(num) 
-    if num <=
-    return true
-  end
-  while i <= num / 2
-  if num % i == 0
+    if num <= 1
     return false
-  end
-  i += 1 
- end 
- return true
- end
+  else (2..num-1).to_a.all? do |pssible_prime|num % possible_prime != 0 
+end
+end 
+end
